@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ec2be1088df55a94e80f194b63142640
-timeCreated: 1507723488
+timeCreated: 1507817808
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,12 @@ TextureImporter:
     21300008: images.duckduckgo.com_4
     21300010: images.duckduckgo.com_5
     21300012: images.duckduckgo.com_6
+    21300014: images.duckduckgo.com_7
+    21300016: images.duckduckgo.com_8
+    21300018: images.duckduckgo.com_9
+    21300020: images.duckduckgo.com_10
+    21300022: images.duckduckgo.com_11
+    21300024: images.duckduckgo.com_12
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -191,6 +197,90 @@ TextureImporter:
         height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: images.duckduckgo.com_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: images.duckduckgo.com_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: images.duckduckgo.com_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 57
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: images.duckduckgo.com_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: images.duckduckgo.com_11
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 117
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: images.duckduckgo.com_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 117
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
