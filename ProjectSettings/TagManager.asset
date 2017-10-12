@@ -8,6 +8,7 @@ TagManager:
   - imp
   - BoltLauncher
   - Chan
+  - Bolt
   layers:
   - Default
   - TransparentFX
