@@ -9,6 +9,7 @@ public class BoltMover : MonoBehaviour
 
 	void Start ()
 	{
+		Destroy (gameObject, 2f);
 		camera = GameObject.FindWithTag ("MainCamera");
 		target = camera.transform;
 	}
