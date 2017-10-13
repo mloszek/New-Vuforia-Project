@@ -65,10 +65,17 @@ public class UnityChanControlScriptWithRgidBody : MonoBehaviour
 		orgColHight = col.height;
 		orgVectColCenter = col.center;
 
-		timer = new System.Diagnostics.Stopwatch ();
-		timer.Start ();
+		StartCoroutine (yawn ());
+
+//		timer = new System.Diagnostics.Stopwatch ();
+//		timer.Start ();
 }
-	
+
+	IEnumerator yawn(){
+		
+		yield return new WaitForSeconds(2.5f);
+		anim.SetTrigger ("restTriggre");
+	}
 	
 // 以下、メイン処理.リジッドボディと絡めるので、FixedUpdate内で処理を行う.
 	void FixedUpdate ()
@@ -82,19 +89,18 @@ public class UnityChanControlScriptWithRgidBody : MonoBehaviour
 		currentBaseState = anim.GetCurrentAnimatorStateInfo(0);	// 参照用のステート変数にBase Layer (0)の現在のステートを設定する
 		rb.useGravity = true;//ジャンプ中に重力を切るので、それ以外は重力の影響を受けるようにする
 		
-		if (timer.Elapsed.Seconds >= 10) 
-		{
-			anim.SetBool("Rest", true);
-			timer.Reset ();
-			timer.Start ();
-			Debug.Log ("derp");
-		}
-
-		if(anim.IsInTransition(0))
-		{
-			anim.SetBool("Rest", false);
-		}
-		
+//		if (timer.Elapsed.Seconds >= 10) 
+//		{
+//			anim.SetBool("Rest", true);
+//			timer.Reset ();
+//			timer.Start ();
+//		}
+//
+//		if(anim.IsInTransition(0))
+//		{
+//			anim.SetBool("Rest", false);
+//		}
+//		
 /*		// 以下、キャラクターの移動処理
 		velocity = new Vector3(0, 0, v);		// 上下のキー入力からZ軸方向の移動量を取得
 		// キャラクターのローカル空間での方向に変換
