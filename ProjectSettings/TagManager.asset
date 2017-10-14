@@ -9,6 +9,8 @@ TagManager:
   - BoltLauncher
   - Chan
   - Bolt
+  - Sphere
+  - Teleport
   layers:
   - Default
   - TransparentFX

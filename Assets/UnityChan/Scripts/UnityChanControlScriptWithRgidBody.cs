@@ -73,7 +73,7 @@ public class UnityChanControlScriptWithRgidBody : MonoBehaviour
 
 	IEnumerator yawn(){
 		
-		yield return new WaitForSeconds(2.5f);
+		yield return new WaitForSeconds(1f);
 		anim.SetTrigger ("restTriggre");
 	}
 	

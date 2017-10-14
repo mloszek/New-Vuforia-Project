@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Controller.cs" />
      <Compile Include="Assets\Scripts\ImpController.cs" />
      <Compile Include="Assets\Scripts\RotatorScript.cs" />
+     <Compile Include="Assets\TeleportDestroyer.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
