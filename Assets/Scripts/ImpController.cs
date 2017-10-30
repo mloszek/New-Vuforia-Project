@@ -22,10 +22,10 @@ public class ImpController : MonoBehaviour
 	void Update ()
 	{
 
-		if (Input.GetMouseButtonUp (0)) {
-			StartCoroutine (LaunchBolt ());
-			StartCoroutine (FuckUp ());
-		}
+//		if (Input.GetMouseButtonUp (0)) {
+//			StartCoroutine (LaunchBolt ());
+//			StartCoroutine (FuckUp ());
+//		}
 	}
 
 	IEnumerator LaunchBolt ()
